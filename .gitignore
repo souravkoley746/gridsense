@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw external datasets (download via python scripts/download_real_data.py)
+data/raw/real/LD2011_2014.txt
+data/raw/real/LD2011_2014.txt.zip
+data/raw/real/*.zip
+data/raw/real/*.txt
+!data/raw/real/.gitkeep
+
+# Distribution packages and archive files
+dist/*.zip
+*.zip
+
+# Temporary test extraction directories and scratch files
+gridsense_test_extracted/
+scratch/
+.pytest_cache/
+.coverage
+htmlcov/
+

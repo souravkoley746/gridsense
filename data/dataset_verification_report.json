@@ -1,0 +1,158 @@
+{
+  "dataset_name": "ElectricityLoadDiagrams20112014",
+  "dataset_doi": "10.24432/C58C86",
+  "uci_id": 321,
+  "author": "Artur Trindade (INESC Porto / University of Porto, Portugal)",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "file_path": "C:\\Users\\sourav\\OneDrive\\Desktop\\gridsense\\data\\raw\\real\\LD2011_2014.txt",
+  "file_size_bytes": 710998915,
+  "file_size_mb": 678.06,
+  "sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b",
+  "archive_sha256": "f6c4d0e0df12ecdb9ea008dd6eef3518adb52c559d04a9bac2e1b81dcfc8d4e1",
+  "audit_timestamp_utc": "2026-11-14T14:59:07.136190+00:00",
+  "dimensions": {
+    "total_rows": 140256,
+    "expected_rows": 140256,
+    "total_columns": 371,
+    "expected_columns": 371,
+    "client_columns": 370,
+    "expected_clients": 370
+  },
+  "timestamps": {
+    "start": "2011-01-01 00:15:00",
+    "end": "2015-01-01 00:00:00",
+    "null_count": 0,
+    "duplicate_count": 0,
+    "is_monotonic_increasing": true,
+    "interval_minutes": 15,
+    "off_grid_interval_count": 0
+  },
+  "data_integrity": {
+    "total_observations": 51894720,
+    "nan_count": 0,
+    "negative_count": 0,
+    "total_zeros": 10457342,
+    "zero_percentage": 20.15,
+    "clients_active_from_day_one": 158,
+    "clients_with_structural_leading_zeros": 212
+  },
+  "dst_transitions": [
+    {
+      "year": 2011,
+      "season": "spring_march",
+      "date": "2011-03-27",
+      "window": "01:00-02:00",
+      "description": "Clock forward 23h day (4 zero intervals recorded)",
+      "verified_all_clients_zero": false
+    },
+    {
+      "year": 2011,
+      "season": "autumn_october",
+      "date": "2011-10-30",
+      "window": "01:00-02:00",
+      "description": "Clock repeat 25h day (aggregated 2h sum)",
+      "average_power_kw": 181.85
+    },
+    {
+      "year": 2012,
+      "season": "spring_march",
+      "date": "2012-03-25",
+      "window": "01:00-02:00",
+      "description": "Clock forward 23h day (4 zero intervals recorded)",
+      "verified_all_clients_zero": false
+    },
+    {
+      "year": 2012,
+      "season": "autumn_october",
+      "date": "2012-10-28",
+      "window": "01:00-02:00",
+      "description": "Clock repeat 25h day (aggregated 2h sum)",
+      "average_power_kw": 561.39
+    },
+    {
+      "year": 2013,
+      "season": "spring_march",
+      "date": "2013-03-31",
+      "window": "01:00-02:00",
+      "description": "Clock forward 23h day (4 zero intervals recorded)",
+      "verified_all_clients_zero": false
+    },
+    {
+      "year": 2013,
+      "season": "autumn_october",
+      "date": "2013-10-27",
+      "window": "01:00-02:00",
+      "description": "Clock repeat 25h day (aggregated 2h sum)",
+      "average_power_kw": 587.12
+    },
+    {
+      "year": 2014,
+      "season": "spring_march",
+      "date": "2014-03-30",
+      "window": "01:00-02:00",
+      "description": "Clock forward 23h day (4 zero intervals recorded)",
+      "verified_all_clients_zero": false
+    },
+    {
+      "year": 2014,
+      "season": "autumn_october",
+      "date": "2014-10-26",
+      "window": "01:00-02:00",
+      "description": "Clock repeat 25h day (aggregated 2h sum)",
+      "average_power_kw": 624.34
+    }
+  ],
+  "structural_zeros_sample": {
+    "MT_001": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_002": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_003": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_004": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_005": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_006": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_007": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_008": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_009": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    },
+    "MT_010": {
+      "first_active_timestamp": "2012-01-01 00:15:00",
+      "structural_zero_readings": 35040,
+      "structural_zero_hours": 8760
+    }
+  },
+  "verdict": "PASS"
+}

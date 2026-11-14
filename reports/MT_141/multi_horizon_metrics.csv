@@ -1,0 +1,6 @@
+client,horizon_hours,horizon_label,MAE_kWh,RMSE_kWh,ME_kWh,NMAE,mean_actual_kwh,eval_origins,eval_points
+MT_141,1,H=1h (Next Hour),0.7217,0.9843,0.4153,0.0569,12.6733,96,96
+MT_141,6,H=6h (6 Hours Ahead),1.1689,1.5125,0.5292,0.0914,12.7829,96,96
+MT_141,12,H=12h (12 Hours Ahead),1.4154,1.7709,0.322,0.1097,12.9059,96,96
+MT_141,24,H=24h (24 Hours Ahead),1.9516,2.2567,0.4294,0.1522,12.8257,96,96
+MT_141,48,H=48h (48 Hours Ahead),3.088,3.5438,1.4082,0.2465,12.5262,96,96

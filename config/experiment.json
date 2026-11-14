@@ -1,0 +1,40 @@
+{
+  "dataset": {
+    "path": "data/raw/real/LD2011_2014.txt",
+    "default_client": "MT_001",
+    "is_synthetic": false,
+    "source_note": "Genuine UCI ElectricityLoadDiagrams20112014 dataset (UCI ID: 321, DOI: 10.24432/C58C86, CC BY 4.0). 15-minute readings in kW from 370 client series in Portugal (2011–2014) converted to hourly energy (kWh).",
+    "portfolio_label": "Aggregate Consumption of 370 Observed Clients",
+    "representative_clients": [
+      "MT_001",
+      "MT_141",
+      "MT_154",
+      "MT_311",
+      "MT_343",
+      "MT_008",
+      "MT_362",
+      "MT_341",
+      "MT_131",
+      "MT_163"
+    ]
+  },
+  "preprocessing": {
+    "trim_structural_zeros": true,
+    "dst_policy": "flag_only"
+  },
+  "split": { "train_frac": 0.70, "validation_frac": 0.15 },
+  "alert": { "quantile": 0.95 },
+  "models": {
+    "random_forest": { "n_estimators": 150, "min_samples_leaf": 2, "max_features": 0.7 },
+    "xgboost": { "n_estimators": 300, "learning_rate": 0.05, "max_depth": 4, "subsample": 0.8, "colsample_bytree": 0.8 }
+  },
+  "evaluation": {
+    "multi_horizon": {
+      "horizons": [1, 6, 12, 24, 48],
+      "origins_per_hour": 4,
+      "total_origins": 96
+    }
+  },
+  "uncertainty": { "lower": 0.05, "upper": 0.95, "backtest_origins": 96, "horizon": 24 },
+  "seed": 42
+}

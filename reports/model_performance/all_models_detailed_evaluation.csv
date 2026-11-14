@@ -1,0 +1,56 @@
+client,model_name,category,test_mae_kwh,test_rmse_kwh,test_me_kwh,mae_improvement_pct,rmse_improvement_pct,sample_count
+MT_001,Persistence,Baseline,1.0269,2.2625,-0.0003,29.12,33.86,3920
+MT_001,Daily seasonal-naive,Baseline,1.4488,3.421,-0.003,0.0,0.0,3920
+MT_001,Weekly seasonal-naive,Baseline,2.2612,4.8998,-0.0195,-56.08,-43.23,3920
+MT_001,Random Forest,Machine Learning,0.9415,1.8693,0.0036,35.02,45.36,3920
+MT_001,XGBoost,Machine Learning,0.927,1.8571,-0.0423,36.02,45.71,3920
+MT_141,Persistence,Baseline,0.2953,0.6398,0.0021,48.74,60.36,3920
+MT_141,Daily seasonal-naive,Baseline,0.5761,1.6139,0.0115,0.0,0.0,3920
+MT_141,Weekly seasonal-naive,Baseline,1.3441,2.8411,0.0456,-133.29,-76.04,3920
+MT_141,Random Forest,Machine Learning,0.5831,0.9751,0.0876,-1.2,39.58,3920
+MT_141,XGBoost,Machine Learning,0.857,1.422,0.4583,-48.75,11.89,3920
+MT_154,Persistence,Baseline,1.7843,2.5806,0.0063,7.2,9.04,3920
+MT_154,Daily seasonal-naive,Baseline,1.9228,2.8371,0.0374,0.0,0.0,3920
+MT_154,Weekly seasonal-naive,Baseline,2.9114,4.104,0.2218,-51.41,-44.66,3920
+MT_154,Random Forest,Machine Learning,1.3859,1.7734,-0.007,27.92,37.49,3920
+MT_154,XGBoost,Machine Learning,1.3507,1.7601,0.0626,29.75,37.96,3920
+MT_311,Persistence,Baseline,10.7469,15.6958,0.0231,-15.79,-12.02,5234
+MT_311,Daily seasonal-naive,Baseline,9.2815,14.0116,0.0627,0.0,0.0,5234
+MT_311,Weekly seasonal-naive,Baseline,9.054,12.7866,0.4011,2.45,8.74,5234
+MT_311,Random Forest,Machine Learning,5.5849,7.5523,-0.0174,39.83,46.1,5234
+MT_311,XGBoost,Machine Learning,5.7545,7.6852,-0.2135,38.0,45.15,5234
+MT_343,Persistence,Baseline,27.9969,55.041,0.0891,-98.06,-104.77,3920
+MT_343,Daily seasonal-naive,Baseline,14.1356,26.8791,0.5513,0.0,0.0,3920
+MT_343,Weekly seasonal-naive,Baseline,21.8817,38.7647,4.2324,-54.8,-44.22,3920
+MT_343,Random Forest,Machine Learning,9.5583,17.7439,0.4729,32.38,33.99,3920
+MT_343,XGBoost,Machine Learning,9.8241,17.357,-0.4653,30.5,35.43,3920
+MT_008,Persistence,Baseline,23.8145,29.8678,0.0161,-6.67,6.88,3920
+MT_008,Daily seasonal-naive,Baseline,22.3244,32.0746,-0.4003,0.0,0.0,3920
+MT_008,Weekly seasonal-naive,Baseline,18.6018,25.5853,-1.2957,16.68,20.23,3920
+MT_008,Random Forest,Machine Learning,12.5304,16.6281,0.1612,43.87,48.16,3920
+MT_008,XGBoost,Machine Learning,12.2191,16.0887,0.1438,45.27,49.84,3920
+MT_362,Persistence,Baseline,7333.9031,13700.3848,25.0383,-72.86,-103.05,3920
+MT_362,Daily seasonal-naive,Baseline,4242.6148,6747.1532,263.4949,0.0,0.0,3920
+MT_362,Weekly seasonal-naive,Baseline,6989.9681,11556.8559,1961.9962,-64.76,-71.28,3920
+MT_362,Random Forest,Machine Learning,2665.2627,4374.9782,444.5999,37.18,35.16,3920
+MT_362,XGBoost,Machine Learning,2803.8288,4433.8131,518.6658,33.91,34.29,3920
+MT_341,Persistence,Baseline,111.8377,194.0982,0.2953,-96.4,-82.88,3920
+MT_341,Daily seasonal-naive,Baseline,56.9426,106.1316,1.7654,0.0,0.0,3920
+MT_341,Weekly seasonal-naive,Baseline,69.4203,109.0435,12.5285,-21.91,-2.74,3920
+MT_341,Random Forest,Machine Learning,43.239,69.6921,4.2378,24.07,34.33,3920
+MT_341,XGBoost,Machine Learning,45.4886,69.7395,-6.2963,20.11,34.29,3920
+MT_131,Persistence,Baseline,26.7367,61.4263,-0.0035,32.64,10.96,5234
+MT_131,Daily seasonal-naive,Baseline,39.6934,68.984,-0.0239,0.0,0.0,5234
+MT_131,Weekly seasonal-naive,Baseline,27.1353,59.3178,-0.3194,31.64,14.01,5234
+MT_131,Random Forest,Machine Learning,14.1615,31.025,2.2659,64.32,55.03,5234
+MT_131,XGBoost,Machine Learning,16.3588,33.7943,1.6915,58.79,51.01,5234
+MT_163,Persistence,Baseline,114.2674,154.4811,0.5213,50.74,53.57,5234
+MT_163,Daily seasonal-naive,Baseline,231.9531,332.6907,3.4833,0.0,0.0,5234
+MT_163,Weekly seasonal-naive,Baseline,159.9455,227.7676,15.2077,31.04,31.54,5234
+MT_163,Random Forest,Machine Learning,95.4021,129.0874,2.2396,58.87,61.2,5234
+MT_163,XGBoost,Machine Learning,94.7484,127.9268,-1.4796,59.15,61.55,5234
+PORTFOLIO,Persistence,Baseline,17292.5207,26622.8518,34.8494,-95.63,-84.74,5234
+PORTFOLIO,Daily seasonal-naive,Baseline,8839.5262,14411.2544,139.643,0.0,0.0,5234
+PORTFOLIO,Weekly seasonal-naive,Baseline,14990.9932,23788.8965,694.7053,-69.59,-65.07,5234
+PORTFOLIO,Random Forest,Machine Learning,4592.4888,6712.1414,84.7237,48.05,53.42,5234
+PORTFOLIO,XGBoost,Machine Learning,4827.9072,6883.692,-259.4168,45.38,52.23,5234

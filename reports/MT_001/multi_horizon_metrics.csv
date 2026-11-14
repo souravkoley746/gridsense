@@ -1,0 +1,2 @@
+client,horizon_hours,horizon_label,MAE_kWh,RMSE_kWh,ME_kWh,NMAE,mean_actual_kwh,eval_origins,eval_points
+MT_001,1,H=1h (Next Hour),1.3803,2.8722,-0.0442,0.5355,2.5777,24,24

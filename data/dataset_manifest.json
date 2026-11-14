@@ -1,0 +1,28 @@
+{
+  "dataset_name": "ElectricityLoadDiagrams20112014",
+  "uci_id": 321,
+  "doi": "10.24432/C58C86",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "creator": "Artur Trindade",
+  "donation_date": "2015-03-12",
+  "download_timestamp_utc": "2026-11-14T12:52:32+00:00",
+  "source_urls": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/00321/LD2011_2014.txt.zip",
+    "https://archive.ics.uci.edu/static/public/321/electricityloaddiagrams20112014.zip"
+  ],
+  "files": {
+    "LD2011_2014.txt": {
+      "relative_path": "data/raw/real/LD2011_2014.txt",
+      "bytes": 710998915,
+      "megabytes": 678.06,
+      "sha256": "d51565f2cb5a6b768d06ba1bbd3c084c6e2f3aab07f00c6f2dcb80e90175124b"
+    },
+    "LD2011_2014.txt.zip": {
+      "relative_path": "data/raw/real/LD2011_2014.txt.zip",
+      "bytes": 261335609,
+      "megabytes": 249.23,
+      "sha256": "f6c4d0e0df12ecdb9ea008dd6eef3518adb52c559d04a9bac2e1b81dcfc8d4e1"
+    }
+  },
+  "verified_by": "scripts/download_real_dataset.py"
+}
