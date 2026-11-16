@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>GridSense — AI Electricity Consumption Forecasting</title>
-  <link rel="icon" href="https://streamlit.io/images/brand/streamlit-mark-color.svg" type="image/svg+xml">
+  <link rel="icon" href="logo.jpg" type="image/jpeg">
   <style>
     * {
       margin: 0;
@@ -43,14 +43,22 @@
     .loading-overlay.hidden {
       opacity: 0;
     }
+    .brand-logo {
+      width: 200px;
+      max-width: 80%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
     .spinner {
-      width: 44px;
-      height: 44px;
+      width: 40px;
+      height: 40px;
       border: 3px solid rgba(255, 255, 255, 0.1);
       border-radius: 50%;
       border-top-color: #0284c7;
       animation: spin 0.8s linear infinite;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
     @keyframes spin {
       to { transform: rotate(360deg); }
@@ -59,10 +67,11 @@
 </head>
 <body>
   <div class="loading-overlay" id="loader">
+    <img src="logo.jpg" alt="GridSense Logo" class="brand-logo">
     <div class="spinner"></div>
-    <div style="font-weight: 500; font-size: 15px; letter-spacing: 0.3px;">Loading GridSense Dashboard...</div>
-    <div style="font-size: 12px; color: #888; margin-top: 6px;">AI Electricity Consumption Forecasting</div>
+    <div style="font-weight: 500; font-size: 14px; letter-spacing: 0.3px;">Loading GridSense Dashboard...</div>
   </div>
+
 
   <iframe 
     id="app-frame" 

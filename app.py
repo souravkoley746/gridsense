@@ -42,12 +42,14 @@ from ui.theme import (
     section,
 )
 
+LOGO_PATH = Path(__file__).resolve().parent / "assets" / "logo.jpg"
 st.set_page_config(
     page_title="GridSense · AI Electricity Forecasting",
-    page_icon="⚡",
+    page_icon=str(LOGO_PATH) if LOGO_PATH.exists() else "⚡",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
 inject_css()
 
 CFG = load_config()

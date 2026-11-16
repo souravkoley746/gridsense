@@ -1,6 +1,11 @@
 # ⚡ GridSense: AI-Powered Electricity Demand Prediction & Visualisation System
 
+<p align="center">
+  <img src="assets/logo.jpg" alt="GridSense Logo" width="460" style="border-radius: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);">
+</p>
+
 **GridSense** is an academic-grade, end-to-end electricity consumption forecasting and decision-support platform designed for smart grid analytics. It provides a leak-free machine learning pipeline, transparent chronological model evaluation, statistical high-demand alert classification, and a modern, commercial SaaS light-theme dashboard.
+
 
 ---
 

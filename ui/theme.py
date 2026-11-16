@@ -329,13 +329,19 @@ def inject_css() -> None:
 
 
 def brand() -> None:
-    st.markdown(
-        '<div class="gs-brand">'
-        '<div class="gs-logo">⚡</div>'
-        '<div><h1>GridSense</h1><small>Smart Grid Demand Intelligence</small></div>'
-        '</div>',
-        unsafe_allow_html=True,
-    )
+    from pathlib import Path
+    logo_path = Path(__file__).resolve().parents[1] / "assets" / "logo.jpg"
+    if logo_path.exists():
+        st.image(str(logo_path), use_container_width=True)
+    else:
+        st.markdown(
+            '<div class="gs-brand">'
+            '<div class="gs-logo">⚡</div>'
+            '<div><h1>GridSense</h1><small>Smart Grid Demand Intelligence</small></div>'
+            '</div>',
+            unsafe_allow_html=True,
+        )
+
 
 
 def hero(title: str, subtitle: str, pills: list[tuple[str, str]] | None = None) -> None:
