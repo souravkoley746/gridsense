@@ -3,25 +3,29 @@ GRIDSENSE B.TECH CAPSTONE FINAL SUBMISSION PACKAGE MANIFEST
 ================================================================================
 Archive Name:     GridSense_Final_Submission_FINAL.zip
 Archive Location: C:/Users/sourav/OneDrive/Desktop/gridsense/dist/GridSense_Final_Submission_FINAL.zip
-Archive Size:     180.52 MB (189,284,799 bytes)
-Archive SHA-256:  5c627530894f9e8d81d4cabd5136ba9cbb0416a36f4dc7a220a4ac2bdb31cd5d
-Total Files:      250
+Archive Size:     185.54 MB (194,556,907 bytes)
+Archive SHA-256:  b067527e2ce89b3a1167367e1438945eca9ed2c33a9b83306bcb9c7d97f355fd
+Total Files:      267
 Compression:      ZIP_DEFLATED (level 6)
 Root Directory:   GridSense/
 ================================================================================
 
 PACKED FILES INVENTORY:
 
-ef6521fe0b0df462c54cf41824c624d34fb40f56776e9f21d0d364789a9c7c18         502 B  GridSense/.gitignore
+d63fca13cbf69c507e94189df5c6b0119bda3ddfdde8b54242d8f0baa8561b83          46 B  GridSense/.gitattributes
+bd6c9aaf90ca43fac6a432a7befa321e964af985b925f650063cdb49e9df5a41         574 B  GridSense/.gitignore
 1621215dbbf81eee6e65fd83b1a2238e0b1ca4d93a98286f144add26cc02afd2         329 B  GridSense/Dockerfile
 139cf0b84adc8017958e4443ab8bf76a20aa6d3e3d6a15eb226554ebcb4ac1aa       18324 B  GridSense/FINAL_SUBMISSION_AUDIT.md
-aa5fd5ce893fd36843b75289dab688c4f5f2642da141845abf2a7705633b962d       21306 B  GridSense/README.md
-95cd81915d54fa2192bfe8af7b72144d74b92f2c5fce0f8bc557065af678d436       40931 B  GridSense/app.py
+5fde3776a0b3c90af1df2e6323e401b0ac6e09b38a2a188d7c2b126afa9e0f5f       21465 B  GridSense/README.md
+39189105ab6a6a50227fb71de65e46a9053ab5fa7fefb8acc4a981258dae4c62       31935 B  GridSense/SUBMISSION_MANIFEST.txt
+74151ca534ed885a6922fd42ea3cf0a8c36fe0985c03c04dfeb7b162c6bccce3       41042 B  GridSense/app.py
 d1f7a9a74d4999930cf88eba1fefc834281a91cbd10efb799ba3f72767e9c5b9          30 B  GridSense/requirements-dev.txt
 af87ab083bbc56fefdb0f0d410a7d1f86fe57aa999c9d48a6eae551c591823e3          99 B  GridSense/requirements.txt
 92adadf58dbde7128a0ab385d52eadc9d8e3e75990dd943b28e19ee75b9ccc7a         551 B  GridSense/run.bat
 2fe7d2e36d994b99ad036b501adc12ca3407e0df415565071a5d89a9b11c3721         637 B  GridSense/run.sh
+464f8319c511b628da8607645f33942ba62e0fcfb91b723e441837046cd5bc2d         157 B  GridSense/vercel.json
 1f974ea2999c1667c16667ac5e8bd2a633ceb7c2e4af2bf2295e566b1fed8186         350 B  GridSense/.streamlit/config.toml
+35e235c14cd15e920612bd191433ba19214fca1b34e677ecce6c3275d6dd6647      109866 B  GridSense/assets/logo.jpg
 4d8a744e12f9507a7a88b07e0b864f12aa7f5330fbfbea346c7a978168498672        1289 B  GridSense/config/experiment.json
 53f41e6444938f918b0f09725dfad51b2da2bfc7562d670546c753f9ef5742f8        2286 B  GridSense/data/DATASET_CARD.md
 555b887c0af17325ce6b16f78c4bf86f2290aee4b96d7e84745c82896eba91ae        6672 B  GridSense/data/DATASET_PROVENANCE.md
@@ -68,6 +72,8 @@ a419dd1ff00f2477d5f6bd615a5cf73c138f8b75a163ce502801dc0da9e3546f       14259 B  
 a682c165d730260398d78cf658b044a419b0c2212709698a703c044d868a6d41      514733 B  GridSense/models/MT_362/model.joblib
 acc68bef284a3f4985cd80664192ea11666e4e5aeeb03cd590030810b73a7003       13814 B  GridSense/models/PORTFOLIO/metadata.json
 77947ca3939149300be63f9c47bde222d5151d14c0621566e5f3ceabf46cda92   176157745 B  GridSense/models/PORTFOLIO/model.joblib
+a33e96ab12f8086e53df335970f6be66bc5a17b6fb888eca2d9d3602667fc97f        2174 B  GridSense/public/index.html
+35e235c14cd15e920612bd191433ba19214fca1b34e677ecce6c3275d6dd6647      109866 B  GridSense/public/logo.jpg
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855           0 B  GridSense/reports/.gitkeep
 beb04f52630cbe044931e020fa8173d322513152b6ab08d028f27a5f42f1259f       60248 B  GridSense/reports/client_profiling_all_370.csv
 c4905398793f5acfa9ad7d81886e641d8b2a3667781526106b8885ab6580c23a        9386 B  GridSense/reports/client_profiling_and_selection.json
@@ -222,19 +228,30 @@ acc68bef284a3f4985cd80664192ea11666e4e5aeeb03cd590030810b73a7003       13814 B  
 acc68bef284a3f4985cd80664192ea11666e4e5aeeb03cd590030810b73a7003       13814 B  GridSense/reports/PORTFOLIO/model_metadata.json
 5200aaeb6dbd5a706a258bd5d63dbcff1eab742d364a8683e60a15cd6d3d1d43      673385 B  GridSense/reports/PORTFOLIO/test_predictions.csv
 838bd8d8a6f7773f5f0da15996e7e27b72ca9bc3c1f20e8a42fd5291c804fe87     3802756 B  GridSense/reports/PORTFOLIO/test_predictions_detailed.csv
-894b0e69523ec1ba2edea6b2ebb90c22db35e0d6269852fa781c80f8ad13de94      214538 B  GridSense/screenshots/page_1_overview.png
-b072e3f71bb9def352cc372c3d321054abb9eb296110719bd120531249e38406      187618 B  GridSense/screenshots/page_2_historical.png
-07162c4cbd8f3b7c2ac11c42c7d55604602925980d77ab95803b9c0a7a577f08      170119 B  GridSense/screenshots/page_3_forecasting.png
-29fdf5b879f9e2f0b7a1cae9a6029f4a6d5fc70ed1d453dfec7a0c96342c91ff      179432 B  GridSense/screenshots/page_4_performance.png
-5cca922533e0584e7c2d066d32e1e8569537792bcb91d416d8e00ae8ad9922fb      177574 B  GridSense/screenshots/page_5_quality.png
-eeb26b83699606703d6b95f401f633c1848ec6d58302779cd71cf52113cc5c1e      243483 B  GridSense/screenshots/page_6_about.png
+c80f0709ebf372102ddc78d7ff7715dbf3c09df28f4b97fa278e33b1cadd3f5f      298751 B  GridSense/screenshots/feature_historical_diurnal_patterns.png
+f77c3360ea7f4a641d085bbe1769b5aa2ff4eda29da7de72a3f4de159bae2a85      287310 B  GridSense/screenshots/feature_historical_peak_distribution.png
+42d523769495a1ab90801489634321f3854e070956a1f8b087691020c671f38b      481660 B  GridSense/screenshots/feature_performance_actual_vs_predicted.png
+fa3ff5ea0d8a9ab3c4d25369f878db5a504cb686ed15214fc67441d6fc867a4e      297627 B  GridSense/screenshots/feature_performance_feature_importance.png
+261ea018b9869942f05ab3f818a0f37d2486c5f7ec1b27a11b21ea0b3bc84eba      473983 B  GridSense/screenshots/page_1_overview.png
+261ea018b9869942f05ab3f818a0f37d2486c5f7ec1b27a11b21ea0b3bc84eba      473983 B  GridSense/screenshots/page_1_overview_full.png
+bad9beeeec1b9ec4c1ed97e19a214d925c219dcf3eff54eaa898188016ed02d9      382547 B  GridSense/screenshots/page_2_historical.png
+bad9beeeec1b9ec4c1ed97e19a214d925c219dcf3eff54eaa898188016ed02d9      382547 B  GridSense/screenshots/page_2_historical_full.png
+f878433e4b5310fa4caff2a7139bd9dfd864c944bca2c7ce3550777127e9028a      374062 B  GridSense/screenshots/page_3_forecasting.png
+f878433e4b5310fa4caff2a7139bd9dfd864c944bca2c7ce3550777127e9028a      374062 B  GridSense/screenshots/page_3_forecasting_full.png
+9f50a865c27e50eaae019d9fa144fe3e70c288dc87674a60a3ca20219b203ffa      390081 B  GridSense/screenshots/page_4_performance.png
+9f50a865c27e50eaae019d9fa144fe3e70c288dc87674a60a3ca20219b203ffa      390081 B  GridSense/screenshots/page_4_performance_full.png
+9753b57ad9ef735d9877e1cd0c867d6c575654d074c70bfeb11860578dc7e61b      402006 B  GridSense/screenshots/page_5_quality.png
+9753b57ad9ef735d9877e1cd0c867d6c575654d074c70bfeb11860578dc7e61b      402006 B  GridSense/screenshots/page_5_quality_full.png
+1311c39a6ca3e8c59d969eebbf4c4c00eb6f3cfe2c12e2cce97cbe3e86a573fe      543364 B  GridSense/screenshots/page_6_about.png
+1311c39a6ca3e8c59d969eebbf4c4c00eb6f3cfe2c12e2cce97cbe3e86a573fe      543364 B  GridSense/screenshots/page_6_about_full.png
+d0d31bdadd8d763a3ef1f0cdefbb454bad7d4d73aeb2407b3ac7f540e63e2c14        8390 B  GridSense/scripts/capture_comprehensive_screenshots.py
 ccd108c582e22571d7d252ba75fc89992ff9928fec03a317ebd3cdebfbbb0b22        2920 B  GridSense/scripts/capture_real_screenshots.py
 709254023122cefa92fab67a3a950f47f3c8bdbc01dcde4e47667a81d0abe34a        5854 B  GridSense/scripts/download_real_data.py
 fc86bfb37d838eaf3d4d7389fb776a11611b1c310f92c5a8d487ee7bece8d1c3        6373 B  GridSense/scripts/download_real_dataset.py
 f731d7218908cd7f398df76c66e749eb1a8efc392f09b9d72655902d044a4530        3595 B  GridSense/scripts/evaluate_models.py
 961fbe312ecde07f1e01b89e5cd53a64206c7421f97f05039b5dcdfb4817ff38        6192 B  GridSense/scripts/generate_demo_dataset.py
 aedccf5c19bdf7454a17ab3845890a000857214f7386e2a1cfc6ebc53e3c6e32        8360 B  GridSense/scripts/generate_final_reports.py
-c40d938cfeac13dddac4f634027fee8033f170b7bef03b40da6839448a482d24        4857 B  GridSense/scripts/package_submission.py
+c4218c8aca1c48f91da0b632612702e54fdf6422ff1accc181c9d980bda6738b        4872 B  GridSense/scripts/package_submission.py
 f191628e1d337d6091b9a30531db19872d8170efa754209b9311f18f8b38b3f3        8933 B  GridSense/scripts/preprocess_real_data.py
 864477b0c14a1a6af40b9bd95a327ac3f32dd41efa8b08df5434787d43303756       13983 B  GridSense/scripts/profile_and_select_clients.py
 9549e5bd47d0cd2688a63d6aca56d8029c933c360585a56c37e3b082427c5fb1       24087 B  GridSense/scripts/train_multi_client.py
@@ -261,4 +278,4 @@ efd82543319343fdf5f9b18456d9c4ac6dfeaece52c967ecb0ceafb9b5301821       11284 B  
 cc18ffd439aed340783dfef6ae2a0d435cc3cdbee01414d976baf218ba5a2c65       17527 B  GridSense/tests/test_real_pipeline.py
 e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855           0 B  GridSense/ui/__init__.py
 690c0d75915e262da9000874b08656ec79472418f67449415096cd8ae604d664       15558 B  GridSense/ui/charts.py
-e8767102fde5441266d1d50e4e43a4bcfea20c1345cd649eb39866d3b811b198        9355 B  GridSense/ui/theme.py
+ff11dffcdcca435e32f49cacf524be4168f1caf328378b07e5e4f23fb9cb37d8        9585 B  GridSense/ui/theme.py

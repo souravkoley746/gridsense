@@ -18,6 +18,7 @@ EXCLUDE_DIRS = {
     ".venv",
     "venv",
     "dist",
+    ".vercel",
     "gridsense_test_extracted",
     "gridsense_master_backup",
     "scratch",

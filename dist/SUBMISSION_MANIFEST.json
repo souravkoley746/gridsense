@@ -1,14 +1,19 @@
 {
   "archive_name": "GridSense_Final_Submission_FINAL.zip",
-  "archive_size_bytes": 189284799,
-  "archive_size_mb": 180.52,
-  "archive_sha256": "5c627530894f9e8d81d4cabd5136ba9cbb0416a36f4dc7a220a4ac2bdb31cd5d",
-  "total_files": 250,
+  "archive_size_bytes": 194556907,
+  "archive_size_mb": 185.54,
+  "archive_sha256": "b067527e2ce89b3a1167367e1438945eca9ed2c33a9b83306bcb9c7d97f355fd",
+  "total_files": 267,
   "files": [
     {
+      "path": "GridSense/.gitattributes",
+      "size_bytes": 46,
+      "sha256": "d63fca13cbf69c507e94189df5c6b0119bda3ddfdde8b54242d8f0baa8561b83"
+    },
+    {
       "path": "GridSense/.gitignore",
-      "size_bytes": 502,
-      "sha256": "ef6521fe0b0df462c54cf41824c624d34fb40f56776e9f21d0d364789a9c7c18"
+      "size_bytes": 574,
+      "sha256": "bd6c9aaf90ca43fac6a432a7befa321e964af985b925f650063cdb49e9df5a41"
     },
     {
       "path": "GridSense/Dockerfile",
@@ -22,13 +27,18 @@
     },
     {
       "path": "GridSense/README.md",
-      "size_bytes": 21306,
-      "sha256": "aa5fd5ce893fd36843b75289dab688c4f5f2642da141845abf2a7705633b962d"
+      "size_bytes": 21465,
+      "sha256": "5fde3776a0b3c90af1df2e6323e401b0ac6e09b38a2a188d7c2b126afa9e0f5f"
+    },
+    {
+      "path": "GridSense/SUBMISSION_MANIFEST.txt",
+      "size_bytes": 31935,
+      "sha256": "39189105ab6a6a50227fb71de65e46a9053ab5fa7fefb8acc4a981258dae4c62"
     },
     {
       "path": "GridSense/app.py",
-      "size_bytes": 40931,
-      "sha256": "95cd81915d54fa2192bfe8af7b72144d74b92f2c5fce0f8bc557065af678d436"
+      "size_bytes": 41042,
+      "sha256": "74151ca534ed885a6922fd42ea3cf0a8c36fe0985c03c04dfeb7b162c6bccce3"
     },
     {
       "path": "GridSense/requirements-dev.txt",
@@ -51,9 +61,19 @@
       "sha256": "2fe7d2e36d994b99ad036b501adc12ca3407e0df415565071a5d89a9b11c3721"
     },
     {
+      "path": "GridSense/vercel.json",
+      "size_bytes": 157,
+      "sha256": "464f8319c511b628da8607645f33942ba62e0fcfb91b723e441837046cd5bc2d"
+    },
+    {
       "path": "GridSense/.streamlit/config.toml",
       "size_bytes": 350,
       "sha256": "1f974ea2999c1667c16667ac5e8bd2a633ceb7c2e4af2bf2295e566b1fed8186"
+    },
+    {
+      "path": "GridSense/assets/logo.jpg",
+      "size_bytes": 109866,
+      "sha256": "35e235c14cd15e920612bd191433ba19214fca1b34e677ecce6c3275d6dd6647"
     },
     {
       "path": "GridSense/config/experiment.json",
@@ -284,6 +304,16 @@
       "path": "GridSense/models/PORTFOLIO/model.joblib",
       "size_bytes": 176157745,
       "sha256": "77947ca3939149300be63f9c47bde222d5151d14c0621566e5f3ceabf46cda92"
+    },
+    {
+      "path": "GridSense/public/index.html",
+      "size_bytes": 2174,
+      "sha256": "a33e96ab12f8086e53df335970f6be66bc5a17b6fb888eca2d9d3602667fc97f"
+    },
+    {
+      "path": "GridSense/public/logo.jpg",
+      "size_bytes": 109866,
+      "sha256": "35e235c14cd15e920612bd191433ba19214fca1b34e677ecce6c3275d6dd6647"
     },
     {
       "path": "GridSense/reports/.gitkeep",
@@ -1056,34 +1086,89 @@
       "sha256": "838bd8d8a6f7773f5f0da15996e7e27b72ca9bc3c1f20e8a42fd5291c804fe87"
     },
     {
+      "path": "GridSense/screenshots/feature_historical_diurnal_patterns.png",
+      "size_bytes": 298751,
+      "sha256": "c80f0709ebf372102ddc78d7ff7715dbf3c09df28f4b97fa278e33b1cadd3f5f"
+    },
+    {
+      "path": "GridSense/screenshots/feature_historical_peak_distribution.png",
+      "size_bytes": 287310,
+      "sha256": "f77c3360ea7f4a641d085bbe1769b5aa2ff4eda29da7de72a3f4de159bae2a85"
+    },
+    {
+      "path": "GridSense/screenshots/feature_performance_actual_vs_predicted.png",
+      "size_bytes": 481660,
+      "sha256": "42d523769495a1ab90801489634321f3854e070956a1f8b087691020c671f38b"
+    },
+    {
+      "path": "GridSense/screenshots/feature_performance_feature_importance.png",
+      "size_bytes": 297627,
+      "sha256": "fa3ff5ea0d8a9ab3c4d25369f878db5a504cb686ed15214fc67441d6fc867a4e"
+    },
+    {
       "path": "GridSense/screenshots/page_1_overview.png",
-      "size_bytes": 214538,
-      "sha256": "894b0e69523ec1ba2edea6b2ebb90c22db35e0d6269852fa781c80f8ad13de94"
+      "size_bytes": 473983,
+      "sha256": "261ea018b9869942f05ab3f818a0f37d2486c5f7ec1b27a11b21ea0b3bc84eba"
+    },
+    {
+      "path": "GridSense/screenshots/page_1_overview_full.png",
+      "size_bytes": 473983,
+      "sha256": "261ea018b9869942f05ab3f818a0f37d2486c5f7ec1b27a11b21ea0b3bc84eba"
     },
     {
       "path": "GridSense/screenshots/page_2_historical.png",
-      "size_bytes": 187618,
-      "sha256": "b072e3f71bb9def352cc372c3d321054abb9eb296110719bd120531249e38406"
+      "size_bytes": 382547,
+      "sha256": "bad9beeeec1b9ec4c1ed97e19a214d925c219dcf3eff54eaa898188016ed02d9"
+    },
+    {
+      "path": "GridSense/screenshots/page_2_historical_full.png",
+      "size_bytes": 382547,
+      "sha256": "bad9beeeec1b9ec4c1ed97e19a214d925c219dcf3eff54eaa898188016ed02d9"
     },
     {
       "path": "GridSense/screenshots/page_3_forecasting.png",
-      "size_bytes": 170119,
-      "sha256": "07162c4cbd8f3b7c2ac11c42c7d55604602925980d77ab95803b9c0a7a577f08"
+      "size_bytes": 374062,
+      "sha256": "f878433e4b5310fa4caff2a7139bd9dfd864c944bca2c7ce3550777127e9028a"
+    },
+    {
+      "path": "GridSense/screenshots/page_3_forecasting_full.png",
+      "size_bytes": 374062,
+      "sha256": "f878433e4b5310fa4caff2a7139bd9dfd864c944bca2c7ce3550777127e9028a"
     },
     {
       "path": "GridSense/screenshots/page_4_performance.png",
-      "size_bytes": 179432,
-      "sha256": "29fdf5b879f9e2f0b7a1cae9a6029f4a6d5fc70ed1d453dfec7a0c96342c91ff"
+      "size_bytes": 390081,
+      "sha256": "9f50a865c27e50eaae019d9fa144fe3e70c288dc87674a60a3ca20219b203ffa"
+    },
+    {
+      "path": "GridSense/screenshots/page_4_performance_full.png",
+      "size_bytes": 390081,
+      "sha256": "9f50a865c27e50eaae019d9fa144fe3e70c288dc87674a60a3ca20219b203ffa"
     },
     {
       "path": "GridSense/screenshots/page_5_quality.png",
-      "size_bytes": 177574,
-      "sha256": "5cca922533e0584e7c2d066d32e1e8569537792bcb91d416d8e00ae8ad9922fb"
+      "size_bytes": 402006,
+      "sha256": "9753b57ad9ef735d9877e1cd0c867d6c575654d074c70bfeb11860578dc7e61b"
+    },
+    {
+      "path": "GridSense/screenshots/page_5_quality_full.png",
+      "size_bytes": 402006,
+      "sha256": "9753b57ad9ef735d9877e1cd0c867d6c575654d074c70bfeb11860578dc7e61b"
     },
     {
       "path": "GridSense/screenshots/page_6_about.png",
-      "size_bytes": 243483,
-      "sha256": "eeb26b83699606703d6b95f401f633c1848ec6d58302779cd71cf52113cc5c1e"
+      "size_bytes": 543364,
+      "sha256": "1311c39a6ca3e8c59d969eebbf4c4c00eb6f3cfe2c12e2cce97cbe3e86a573fe"
+    },
+    {
+      "path": "GridSense/screenshots/page_6_about_full.png",
+      "size_bytes": 543364,
+      "sha256": "1311c39a6ca3e8c59d969eebbf4c4c00eb6f3cfe2c12e2cce97cbe3e86a573fe"
+    },
+    {
+      "path": "GridSense/scripts/capture_comprehensive_screenshots.py",
+      "size_bytes": 8390,
+      "sha256": "d0d31bdadd8d763a3ef1f0cdefbb454bad7d4d73aeb2407b3ac7f540e63e2c14"
     },
     {
       "path": "GridSense/scripts/capture_real_screenshots.py",
@@ -1117,8 +1202,8 @@
     },
     {
       "path": "GridSense/scripts/package_submission.py",
-      "size_bytes": 4857,
-      "sha256": "c40d938cfeac13dddac4f634027fee8033f170b7bef03b40da6839448a482d24"
+      "size_bytes": 4872,
+      "sha256": "c4218c8aca1c48f91da0b632612702e54fdf6422ff1accc181c9d980bda6738b"
     },
     {
       "path": "GridSense/scripts/preprocess_real_data.py",
@@ -1252,8 +1337,8 @@
     },
     {
       "path": "GridSense/ui/theme.py",
-      "size_bytes": 9355,
-      "sha256": "e8767102fde5441266d1d50e4e43a4bcfea20c1345cd649eb39866d3b811b198"
+      "size_bytes": 9585,
+      "sha256": "ff11dffcdcca435e32f49cacf524be4168f1caf328378b07e5e4f23fb9cb37d8"
     }
   ]
 }
